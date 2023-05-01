@@ -1,0 +1,29 @@
+#LogoAP{
+width: 170px;
+}
+img{
+width: 35px;
+margin: 2px;
+transition: all 300ms;
+}
+img:hover{
+width: 40px;
+}
+.container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+button{
+margin-right: 10px;
+margin-left: 2px;
+}
+
+@media (max-width: 575px){
+    .container{
+        flex-direction:column;
+    }
+    img,button{
+    margin-bottom: 15px;
+    }
+}

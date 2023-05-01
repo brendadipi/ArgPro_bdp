@@ -1,0 +1,36 @@
+.row{
+    padding: 20px;
+}
+
+h1{ /*SOBRE MI*/
+    font-family: Montserrat;
+    font-weight: bold;
+}
+
+#nombre{
+font-weight: bold;
+margin-top: 10%;
+}
+#titulo{
+    font-style: italic;
+}
+
+@media (min-width: 576px){ /*perfil sobre baner*/
+    #fotoperfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow:  3px 3px 3px grey;
+        top:600px;
+    }
+}
+@media (max-width: 575px){ /*perfil sobre baner*/
+    #fotoperfil{
+        position: relative;
+        width: 30%;
+        border-radius: 100%;
+        box-shadow:  3px 3px 3px grey;
+        left: 33%;
+        justify-content: center;
+    }
+}

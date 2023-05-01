@@ -1,0 +1,9 @@
+.row{
+    padding: 20px;
+}
+.tituloeducacion{
+color: rgb(156, 137, 184);
+}
+h1,h3{
+    display: inline;
+}
